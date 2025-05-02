@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Paradise Resort | Contact</title>
+        <meta name="author" content="Suwanshree Acharya">
+        <meta name="description" content="Get in touch with Paradise Resort with questions and booking reservations">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html">Paradise Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Contact Us</h2>
+            <p id="contact-info">Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+            <img src="images/swiss-peak.jpg" alt="Grand view of a Snowy Swiss mountain peak with green trees and flowing river below">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <div>
+                    <label for="full-name">Full Name <span class="required">*</span></label>
+                    <input type="text" name="full-name" id="full-name" required>
+
+                    <label for="email-address">Email Address <span class="required">*</span></label>
+                    <input type="email" name="email-address" id="email-address" required>
+
+                    <label for="phone-number">Phone Number <span class="required">*</span></label>
+                    <input type="tel" name="phone-number" id="phone-number" required>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend id="preferred-contact-label">
+                            Preferred contact method <span aria-hidden="true">*</span>
+                        </legend>
+                        <div>
+                            <input type="radio" id="contact-email" name="preferred-contact" value="email" required>
+                            <label for="contact-email">Email</label>
+
+                            <input type="radio" id="contact-phone" name="preferred-contact" value="phone">
+                            <label for="contact-phone">Phone</label>
+                        </div>
+                        </fieldset>
+
+                    <label for="comments">Comments <span class="required">*</span></label>
+                    <textarea name="comments" id="comments" required></textarea>
+
+                    <input type="submit" name="form-submit" id="form-submit">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright &copy;2023 - Paradise Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
